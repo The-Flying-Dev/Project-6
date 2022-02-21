@@ -11,6 +11,6 @@ import App from "./App";
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
-    <div><h1>Hello There</h1></div>, document.getElementById('root'),
+    <App />, document.getElementById('root'),
   )
 });

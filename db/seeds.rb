@@ -12,15 +12,15 @@ user = User.first || User.create(email: 'test@test.com', password: 'password', p
 posts = [
   {
     title: 'My first post', 
-    content: 'Windows or Mac'
+    description: 'Windows or Mac'
   },
   {
     title: 'My second post', 
-    content: 'Android or Ios'
+    description: 'Android or Ios'
   },
   {
     title: 'My third post',
-    content: 'Linux or Windows'
+    description: 'Linux or Windows'
   }
 ]
 

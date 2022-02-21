@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
-  resources :posts
   devise_for :users
+
+  namespace :api do 
+    namespace :v1 do 
+      resources :posts
+    end 
+  end
+  
   get 'welcome/home'
   get '/app', to: 'welcome#app', as: 'app'
   root 'welcome#home'
