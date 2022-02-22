@@ -1,24 +1,18 @@
-# README
+# A user authentification app with React front-end using Rails Api for the backend.
+<hr />
+<br />
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Users will be directed to Rails root homepage.
+* Users can then login or signup to view posts.
+* Users can perform CRUD operations.
+* Added Bootstrap 5 for Rails homepage.
 
-Things you may want to cover:
+<hr />
+<br />
 
-* Ruby version
+## Currently having issues rendering the data on posts page.
 
-* System dependencies
+* Routes work.
+* Work in progress.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
